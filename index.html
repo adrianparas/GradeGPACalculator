@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="code.js"></script>
+    <title>Grade_GPA_Calculator</title>
+</head>
+<body>
+    <div class="solid">
+        <h1>Grade Manager</h1>
+    </div>
+
+    <form class="gradeCalc">
+        <h3>Please Select a Grading Method:</h3>
+        <div class="gradingMethod">
+            <input type="button" value="Percent" id="percent">
+            <input type="button" value="Letter" id="letter">
+        </div>
+        <table id="table">
+            <tr>
+                <th>Assignment</th>
+                <th>Grade(%)</th>
+                <th>Weight</th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" id="a1">
+                </th>
+                <th>
+                    <input type="number" id="g1">
+                </th>
+                <th>
+                    <input type="number" id="w1">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" id="a2">
+                </th>
+                <th>
+                    <input type="number" id="g2">
+                </th>
+                <th>
+                    <input type="number" id="w2">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" id="a3">
+                </th>
+                <th>
+                    <input type="number" id="g3">
+                </th>
+                <th>
+                    <input type="number" id="w3">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" id="a4">
+                </th>
+                <th>
+                    <input type="number" id="g4">
+                </th>
+                <th>
+                    <input type="number" id="w4">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" id="a5">
+                </th>
+                <th>
+                    <input type="number" id="g5">
+                </th>
+                <th>
+                    <input type="number" id="w5">
+                </th>
+            </tr>
+        </table>
+
+        <div id="buttons">
+            <input type="button" value="Add Row" id="addRow">
+            <input type="button" value="Calculate Final Grade" id="calcFinalGrade">
+            <input type="reset" value="Reset" id="reset">
+        </div>
+    </form>
+    <div id="finalGrade"></div>
+    <div id="gpa"></div>
+</body>
+</html>
