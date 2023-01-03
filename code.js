@@ -212,7 +212,7 @@ window.onload = function() {
                 } else {
                     letterGrade = "F";
                 }
-                document.getElementById("finalGrade").innerHTML = `Your final grade is a ${val.toFixed(2)}% (${letterGrade})`;
+                document.getElementById("finalGrade").innerHTML = `Your final grade is: ${val.toFixed(3)}% (${letterGrade})`;
             }
             sum = 0;
             sumWeights = 0; 
@@ -283,7 +283,7 @@ window.onload = function() {
                 alert("Please enter at least one valid course with an associated grade/weight");
             } else {
                 let val = sum/sumWeights;
-                document.getElementById("gpa").innerHTML = `Your final GPA is ${val.toFixed(2)}`;
+                document.getElementById("gpa").innerHTML = `Your GPA is: ${val.toFixed(3)}`;
             }
             sum = 0;
             sumWeights = 0;
