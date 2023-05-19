@@ -35,8 +35,8 @@ form.gradeCalc {
     border-width: 2px;
     background-color: moccasin;
     text-align: center;
-    margin-left: 50rem;
-    margin-right: 50rem; 
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-top: 5rem;
 }
 
@@ -51,14 +51,14 @@ form.gradeCalc {
     color: black;
     text-align: center;
     margin-top: 5rem;
-    margin-left: 60rem;
-    margin-right: 60rem; 
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 table, th, td {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
