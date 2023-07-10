@@ -4,16 +4,16 @@ body {
     bottom:0;
     left:0;
     right:0;
-    background-color: darkgray;
+    background-color: lightseagreen;
 }
 
 div.solid {
     border-style: solid;
     border-width: 10px;
-    border-color: lightblue;
+    border-color: lightcoral;
     color: black;
     text-align: center;
-    background-color: lightblue;
+    background-color: lightcoral;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -39,7 +39,7 @@ div.gradingMethod {
 form.gradeCalc {
     border-style: solid;
     border-width: 2px;
-    background-color: moccasin;
+    background-color: lightblue;
     text-align: center;
     margin-left: 5rem;
     margin-right: 5rem;
