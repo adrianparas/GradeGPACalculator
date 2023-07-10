@@ -24,7 +24,13 @@ div.gradingMethod {
     margin-top: 20px;
 }
 
-#percent, #letter {
+#percent {
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+}
+
+#letter {
     font-size: 20px;
     width: 90px;
     height: 30px;
