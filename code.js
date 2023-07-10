@@ -64,7 +64,7 @@ document.getElementById("reset").onclick = function() {
         document.getElementById("finalGrade").innerHTML = "";
     } else {
         document.getElementById("table").innerHTML = `<tr>
-        <th>Course</th>
+        <th>Course Name</th>
         <th>Grade(letter)</th>
         <th>Credits</th>
         </tr>`;
@@ -131,7 +131,7 @@ document.getElementById("letter").onclick = function() {
     if (gradingMethod !== "Letter") {
         document.getElementById("calcFinalGrade").value = `Calculate GPA`;
         document.getElementById("table").innerHTML = `<tr>
-        <th>Course</th>
+        <th>Course Name</th>
         <th>Grade(letter)</th>
         <th>Credits</th>
         </tr>`;
