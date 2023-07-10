@@ -1,5 +1,4 @@
 "use strict";
-// Must call window.onload so everything on the page is loaded, meaning that nothing remains null
 let numRows = 5;
 let sum = 0;
 let sumWeights = 0;
