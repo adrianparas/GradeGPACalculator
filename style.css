@@ -52,7 +52,7 @@ form.gradeCalc {
 }
 
 #finalGrade, #gpa {
-    background-color: white;
+    background-color: lightcoral;
     font-size: xx-large;
     color: black;
     text-align: center;
