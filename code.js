@@ -171,16 +171,16 @@ document.getElementById("letter").onclick = function() {
 document.getElementById("calcFinalGrade").onclick = function() {
     if (gradingMethod === "Percent") {
         for (let i = 1; i <= numRows; i++) {
-            let course = document.getElementById(`a${i}`);
+            let assignment = document.getElementById(`a${i}`);
             let grade = document.getElementById(`g${i}`);
             let weight = document.getElementById(`w${i}`);
-            if (course != null && grade != null && weight != null) {
+            if (assignment != null && grade != null && weight != null) {
                 sum += Number(grade.value) * Number(weight.value);
                 sumWeights += Number(weight.value);
             }
         }   
         if (sum == 0) {
-            alert("Please enter at least one valid course with an associated grade/weight");
+            alert("Please enter at least one valid assignment with an associated grade/weight");
         } else {
             let val = sum/sumWeights;
             let letterGrade = "";
@@ -279,7 +279,7 @@ document.getElementById("calcFinalGrade").onclick = function() {
             }
         }
         if (sum == 0) {
-            alert("Please enter at least one valid course with an associated grade/weight");
+            alert("Please enter at least one valid course with an associated grade/credits");
         } else {
             let val = sum/sumWeights;
             document.getElementById("gpa").innerHTML = `Your GPA is: ${val.toFixed(3)}`;
